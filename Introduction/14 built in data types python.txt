@@ -1,0 +1,15 @@
+14 built in data types
+int
+float
+complex
+bool
+str
+list
+tuple
+set
+frozenset
+dict
+range
+bytes
+bytearray
+None

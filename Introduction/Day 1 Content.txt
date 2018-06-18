@@ -1,0 +1,17 @@
+day 1 content
+1)Introduction to Programming Languages
+2)Types of Programming Languages and Types of Software Applications
+3)Python Introduction
+4)Python History
+5)Flavours Of Python (cpython,jpython or java python,anaconda(huge volume data),iron python(.net))
+6)Python Versions
+7)Python Installation
+8)live Projects in Python and Application Areas Of Python
+9)Python 2 Vs Python 3
+10)IDLE
+11)HelloWorld Program
+12)Identifiers
+
+
+Assigment 1 : 1)Limitations of Python
+2)Contribution Of python in Current Market
