@@ -1,0 +1,8 @@
+day 2 content
+1)Introducion to Jupyter
+2)Data Types(int float bool and str)
+3)User Input and Output
+4)Basic Operations(Add,Min,andM Mul etc)
+5)Introduction to String
+
+Assignment : Write a program to make calculator
