@@ -1,0 +1,6 @@
+day 3 content
+1)String Idexing and Slice Operation
+2)Mutable vs Imutable
+3)Reuseablity
+4)Type Casting
+5)bytes and bytearray
