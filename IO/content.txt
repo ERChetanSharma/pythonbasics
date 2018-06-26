@@ -1,0 +1,77 @@
+C:\Users\HP>py
+Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a,b,c=[int(x) for x in input("Enter 3 Numbers").split()]
+Enter 3 Numbers12 11    10
+>>> a
+12
+>>> b
+11
+>>> c
+10
+>>> a,b,c=[int(x) for x in input("Enter 3 Numbers").split(",")]
+Enter 3 Numbers12,13,13
+>>> a
+12
+>>> b
+13
+>>> c
+13
+>>> a,b,c=[int(x) for x in input("Enter 3 Numbers").split(5)]
+Enter 3 Numbers105510
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: must be str or None, not int
+>>> a,b,c=[int(x) for x in input("Enter 3 Numbers").split("5")]
+Enter 3 Numbers105510
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 1, in <listcomp>
+ValueError: invalid literal for int() with base 10: ''
+>>> a,b,c=[int(x) for x in input("Enter 3 Numbers").split("5")]
+Enter 3 Numbers10512513
+>>> a
+10
+>>> b
+12
+>>> c
+13
+>>> a,b,c=[int(x) for x in input("Enter 3 Numbers").split("5")]
+Enter 3 Numbers1055513
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 1, in <listcomp>
+ValueError: invalid literal for int() with base 10: ''
+>>> a,b,c=[int(x) for x in input("Enter 3 Numbers").split("@")]
+Enter 3 Numbers1@2@3
+>>> a
+1
+>>> b
+2
+>>> c
+3
+>>> type(eval(input("Enter Number")))
+Enter Number12
+<class 'int'>
+>>> a=eval("10+20+30")
+>>> a
+60
+>>> a=eval("10+20+30-2.4*12")
+>>> a
+31.200000000000003
+>>> a=eval("name")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<string>", line 1, in <module>
+NameError: name 'name' is not defined
+>>> name="10+20"
+>>> a=eval("name")
+>>> a
+'10+20'
+>>> a=eval("'10+20+30'")
+>>> a
+'10+20+30'
+>>> a=eval('''10+20+30''')
+>>> a
+60
+>>> exit()

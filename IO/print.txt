@@ -1,0 +1,75 @@
+using sep
+print(var1,var2,var3,sep="")
+replace end parm
+print(var1,var2,end="")
+formatted string
+%i -> int
+%s ->str
+
+print("Formatted string" %(variable list))
+
+C:\Users\HP\Desktop>py
+Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a=10
+>>> b=20
+>>> print(a,b)
+10 20
+>>> print()
+
+>>> c=20
+>>> d=40
+>>> print(a,b,c,sep=",")
+10,20,20
+>>> print(a,b,c,sep="")
+102020
+>>> print(a,b,c,sep=":")
+10:20:20
+>>> print(a,b,c,sep="5")
+10520520
+>>> print(a,b,c,end=":")
+10 20 20:>>> print(a,b,c)
+10 20 20
+>>> print(a,b,c,end="")
+10 20 20>>> print(a,b,c,end="@")
+10 20 20@>>> str="10"
+>>> print("int %i str %s" %(a,str))
+int 10 str 10
+>>> print("int %i" %(a))
+int 10
+>>> print("int %i str %s" %(a,str),sep=":")
+int 10 str 10
+>>> print("int %i str %s" %(a,str),10,sep=":")
+int 10 str 10:10
+>>> print("int %s str %i" %(a,str),10,sep=":")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: %i format: a number is required, not str
+>>> print("int %s str %i" %(stra),10,sep=":")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'stra' is not defined
+>>> print("int %s str %i" %(str,a),10,sep=":")
+int 10 str 10:10
+>>> print(" %s  %i" %(str,a),10,sep=":")
+ 10  10:10
+>>> print("{}two{}".format(10,20))
+10two20
+>>>
+
+
+C:\Users\HP\Desktop>py
+Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a=10
+>>> b=20
+>>> name="name"
+>>> print("first value:{} Second Value:{} Name:{}".format(a,b,name))
+first value:10 Second Value:20 Name:name
+>>> print("first value:{} Second Value:{} Name:{}".format(name,b,a))
+first value:name Second Value:20 Name:10
+>>> print("first value:{first} Second Value:{second} Name:{name}".format(name=name,second=b,first=a))
+first value:10 Second Value:20 Name:name
+>>>
+
+
