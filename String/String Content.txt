@@ -1,0 +1,56 @@
+String Content
+1)Ways to Declare String and len of string
+
+2)String Immutable
+
+3)Acces Elments of String
+	1)Index
+	2)Slice->
+		1)Forward Direction
+		2)BackWard Direction
+
+
+4)Diff == and is
+
+5)String Operators->
+	1)+,*
+	2)Comarision Operators
+	3)Membership Operators(in,not in)
+
+6)Methods Of String
+	1)find("")
+	2)rfind("")
+	3)index("")
+	4)rindex("")
+	5)strip()
+	6)rstrip()
+	7)lstrip()
+	8)count("")
+	9)split() of string
+	10)replace('','')
+	11)join of string
+	12)upper()
+	13)lower()
+	14)swapcase()
+	15)title()
+	16)capitalize()
+	17)isalnum()
+	18)isalpha()
+	19)isDigit()
+	20)isLower()
+	21)isUpper()
+	22)istitle()
+	23)isspace()
+
+fn()->min(),max(),sorted(),reversed()
+	
+	25)startswith("")
+	26)endswith("")
+
+Programs:
+
+1)Program ->  Write a Program to Display the index of String(Postive and negative)
+2)Program ->  Write a Program to Sort Elements In List(String)
+3)Program ->  Write a Program to Check username and password
+
+
