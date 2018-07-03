@@ -1,0 +1,44 @@
+Dictionary Content
+
+1)Introduction to Dictionary
+	1)Insertion Order
+	2)Hetrogenous data
+	3)mutable
+	4)Growable in Size
+
+2)ways to define Dictionary
+	1)Empty Dictionary
+	2)None
+	3)Dictionary Comprehension{output inputsequence predicate}
+	//4)filter(lambda,iteration)
+	5)Nested Dictionary
+
+3)deltion of Dictionary
+	1)del[key]
+	//2)del(Dictionary[])
+
+4)Operators in Dictionary
+	//1)+,*
+	//2)in,not in
+	//3)==,is
+	//4)<,>,<=,>=
+
+5)functions
+	1)len()
+	2)min()
+	3)max()
+	4)*Dictionary(tuples of list)->only iterable
+	5)sum()
+
+6)Methods
+	1)get()->get(key,defaultvalue)
+	2)pop(key)->popitem()
+	3)keys()
+	4)values()
+	5)items()
+	6)copy()
+	7)update(x)
+	8)setdefault(key,v)
+
+	
+	

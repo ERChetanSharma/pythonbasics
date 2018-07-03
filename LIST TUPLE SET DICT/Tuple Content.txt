@@ -1,0 +1,45 @@
+Tuple Content
+
+1)Introduction to Tuple
+	1)Insertion Order
+	2)Hetrogenous data
+	3)IMmutable
+	//4)Growable in Size
+	5)Compare list vs tuple
+	
+
+2)ways to define Tuple
+	1)Empty Tuple
+	2)None
+	3)tuple(Comprehension(output inputsequence predicate))
+	4)filter(lambda,iteration)
+	5)Nested Tuple
+
+
+3)Operators in Tuple
+	1)+,*
+	2)in,not in
+	3)==,is
+	4)<,>,<=,>=
+
+4)functions
+	1)len()
+	2)min()
+	3)max()
+	4)*Tuple()->only iterable
+	5)sum()
+5)Methods
+	1)index(object)->index(object,begin,end)
+	2)count(object)
+	//3)pop()->pop(i)
+	//4)insert(i,object)
+	//5)remove(object)
+	//6)sort()->sort(reversed)
+	6)sorted(t)
+	//7)extend(Tuple)
+	//8)clear()
+	//9)append()
+
+6)Packing And UnPacking
+
+	
